@@ -1,27 +1,16 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "typescript": "^4.5.5"
-  },
   "name": "movies-api",
-  "description": "",
-  "version": "1.0.0",
-  "main": "src/index.ts",
-  "devDependencies": {
-    "@types/node": "^17.0.17"
-  },
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start:dev": "ts-node-dev src/index.ts",
-    "start": "ts-node-dev src/index.ts"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eduardaaragao/movies-api.git"
-  },
-  "author": "maria aragão",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eduardaaragao/movies-api/issues"
-  },
-  "homepage": "https://github.com/eduardaaragao/movies-api#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
